@@ -195,8 +195,8 @@ with user_container:
 
 
 #CALENDARIO: SELECCIONAR RANGO DE FECHAS
-	start_date = '2011-1-2' #start_date declarado arbitrariamente para no lanzar error en el calendario.
-	end_date = '2011-1-1' #end_date declarado arbitrariamente para no lanzar error en el calendario
+	start_date = datetime.datetime(2011, 1, 2) #start_date declarado arbitrariamente para no lanzar error en el calendario.
+	end_date = datetime.datetime(2011, 1, 1) #end_date declarado arbitrariamente para no lanzar error en el calendario
 
 	col2.subheader("1.2 Rango de fechas")
 	try:
